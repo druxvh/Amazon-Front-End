@@ -27,7 +27,7 @@
 
 .logo {
   padding: 3px 0 0 0;
-  background-image: url(/amazon_logo.png);
+  background-image: url(amazon_logo.png);
   height: 30px;
   width: 100%;
   background-size: cover;
@@ -150,17 +150,20 @@
 }
 
 .sec-nav {
+  padding-left: .85rem;
   background-color: #232f3e;
   height: 40px;
   display: flex;
+  justify-content: start;
   align-items: center;
+  gap: 1rem;
+  cursor: pointer;
   
 
 
 }
-.sec-nav-links {
-  list-style: none;
-  display: flex;
-  align-items: center;
+.sec-nav-links a{
+padding-left: .85rem;
+cursor: pointer;
 
 }
