@@ -167,3 +167,53 @@ padding-left: .85rem;
 cursor: pointer;
 
 }
+.main-img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  background-image: url(main\ img.jpg);
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+}
+.main-img-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.shop-box {
+  display: flex;
+  justify-content: space-evenly;
+  
+
+  
+}
+.box {
+  border: 2px solid black;
+  height: 400px;
+  width: 23%;
+  border-radius: 3px;
+  
+  
+}
+.shop-img {
+  background-image: url(box1.jpg);
+  height: 80%;
+  
+}
+.box h2 {
+  color: #000000;
+
+}
+.box a {
+  color: #000000;
+
+}
