@@ -176,6 +176,8 @@ cursor: pointer;
   height: 300px;
   width: 100%;
   background-size: cover;
+  /* z-index: 1; */
+  overflow: visible;
 }
 .main-img-msg {
   display: flex;
@@ -242,17 +244,17 @@ margin: 0 1rem;
   width: 100%;
   background-color: #e3e6e6;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
-  margin: .85rem .85rem;
+  margin: 2rem 0 2.5rem 0;
   
 }
 
 .login-form{
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(249, 245, 245);
   padding: 2rem;
   border-radius: 5px;
 }
@@ -271,6 +273,7 @@ margin: 0 1rem;
   border-radius: 5px;
   padding: 0 1rem;
   margin: 1rem 0;
+  border: none;
   
 }
 .login-form button {
@@ -288,4 +291,37 @@ margin: 0 1rem;
 .login-form button:hover {
   background-color: #fe9f23;
   border: .5px solid #000000;
+}
+footer {
+  background-color: #232f3e;
+  /* display: flex; */
+
+
+}
+.footer-top {
+  height: 50px;
+  background-color: #37475a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-top p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.footer-top p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-content {
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0 0 0;
+  /* align-items: center; */
+
+}
+.footer-content a, h3 {
+  display: block;
+  margin: 10px  ;
 }
