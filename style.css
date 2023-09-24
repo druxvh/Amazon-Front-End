@@ -181,7 +181,7 @@ cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgba(249, 229, 128, 0.977);
   color: black;
   height: 40px;
   width: 90%;
@@ -192,21 +192,34 @@ cursor: pointer;
 .shop-box {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #e3e6e6;
   
 
   
 }
 .box {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height: 400px;
-  width: 23%;
-  border-radius: 3px;
+  width: 24%;
+  border-radius: 5px;
+  padding: 20px 0 15px;
+  margin: 1rem 0;
+  background-color: white;
   
   
 }
+.box-container {
+ 
+margin: 0 1rem;
+
+}
 .shop-img {
-  background-image: url(box1.jpg);
-  height: 80%;
+  background-repeat: none;
+  background-size: cover;
+  height: 300px;
+  border-radius: 3px;
+  margin: 1rem 0 1.5rem 0;
   
 }
 .box h2 {
@@ -214,6 +227,65 @@ cursor: pointer;
 
 }
 .box a {
-  color: #000000;
+  color: #186bae;
 
+}
+.box a:hover {
+  color: #0b528b;
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+.login-form-container {
+  height: 350px;
+  width: 100%;
+  background-color: #e3e6e6;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: .85rem .85rem;
+  
+}
+
+.login-form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.login-form h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  /* text-align: center; */
+  margin-bottom: 10px;
+}
+.login-form input {
+  background-color: #efebeb;
+  color: black;
+  height: 3rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  
+}
+.login-form button {
+  background-color: #ffac40;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 3rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+  border: none;
+
+}
+
+.login-form button:hover {
+  background-color: #fe9f23;
+  border: .5px solid #000000;
 }
