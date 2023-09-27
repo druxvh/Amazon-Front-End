@@ -325,3 +325,16 @@ footer {
   display: block;
   margin: 10px  ;
 }
+
+.footer-copyright {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c3949;
+  height: 60px;
+}
+
+.footer-copyright i {
+  margin: 10px;
+}
