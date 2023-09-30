@@ -14,7 +14,6 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* gap: 1rem; */
 }
 
 .nav-logo {
@@ -144,7 +143,6 @@ min-width: 80px;
 .nav-acc {
   display: flex;
   flex-direction: column;
-  /* height: 60px; */
   justify-content: center;
   /* margin: 10px;  */
 min-width: 80px;
@@ -164,7 +162,6 @@ min-width: 80px;
 .returns {
     display: flex;
   flex-direction: column;
-  /* height: 60px; */
   justify-content: center;
 min-width: 60px;
 
@@ -223,7 +220,6 @@ cursor: pointer;
   height: 300px;
   width: 100%;
   background-size: cover;
-  /* z-index: 1; */
   overflow: visible;
 }
 .main-img-msg {
@@ -243,8 +239,6 @@ cursor: pointer;
   justify-content: space-evenly;
   /* width: 100dvw; */
   flex-wrap: wrap;
-  /* gap: 5px; */
-
   /* align-content: space-evenly; */
   background-color: #e3e6e6;
   
