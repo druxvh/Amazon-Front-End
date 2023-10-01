@@ -66,14 +66,7 @@
 .nav-add-down {
   font-weight: bold;
 }
-/* .nav-logo,
-.nav-address,
-.search,
-.nav-acc,
-.returns,
-.nav-cart {
-  margin-right: 0.85rem;
-} */
+
 
 .search {
   display: flex;
@@ -398,12 +391,7 @@ h3 {
   .main-nav{
     height: 60px;
   }
-  .nav-logo{
-    width: 180px;
-  }
-  .logo {
-    min-height: 44px;
-  }
+ 
   .main-img{
     height: 120px;
   }
